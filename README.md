@@ -8,17 +8,17 @@ Once unzipped open in text editor that can handle large files like Notepad++. On
 location for your SQLServer setup.
 
 '''
-USE [master]
-GO
-/****** Object:  Database [MobileSales]    Script Date: 15/06/2022 12:25:36 PM ******/
-CREATE DATABASE [MobileSales]
- CONTAINMENT = NONE
- ON  PRIMARY 
-( NAME = N'MobileSales_Data', FILENAME = N'D:\MSSQL\Data\MobileSales.mdf' , SIZE = 1010176KB , MAXSIZE = UNLIMITED, FILEGROWTH = 10%)
- LOG ON 
-( NAME = N'MobileSales_Log', FILENAME = N'D:\MSSQL\Logs\MobileSales.ldf' , SIZE = 25480KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
- WITH CATALOG_COLLATION = DATABASE_DEFAULT
-GO
+USE [master]  
+GO  
+/****** Object:  Database [MobileSales]    Script Date: 15/06/2022 12:25:36 PM ******/  
+CREATE DATABASE [MobileSales]  
+ CONTAINMENT = NONE  
+ ON  PRIMARY   
+( NAME = N'MobileSales_Data', FILENAME = N'D:\MSSQL\Data\MobileSales.mdf' , SIZE = 1010176KB , MAXSIZE = UNLIMITED, FILEGROWTH = 10%)  
+ LOG ON   
+( NAME = N'MobileSales_Log', FILENAME = N'D:\MSSQL\Logs\MobileSales.ldf' , SIZE = 25480KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)  
+ WITH CATALOG_COLLATION = DATABASE_DEFAULT    
+GO  
 '''
 
 Open a command prompt and import the script with the command below
