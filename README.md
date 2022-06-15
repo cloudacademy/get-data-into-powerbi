@@ -24,4 +24,6 @@ GO
 Open a command prompt and import the script with the command below
 https://docs.microsoft.com/en-us/sql/ssms/scripting/sqlcmd-use-the-utility?view=sql-server-ver16
 
-# sqlcmd -S <ComputerName>\<InstanceName> -i C:\path to unzipped script file\MobileSales.sql
+'''
+sqlcmd -S <ComputerName>\<InstanceName> -i C:\path to unzipped script file\MobileSales.sql
+'''
