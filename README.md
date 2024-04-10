@@ -4,6 +4,8 @@ The database content isn't important for this course, but if you want to use a d
 The MobileSales archive is made up of 2 files. Make sure they are in the same folder before unzipping. The resulting script file is large (1.2Gb), 
 so you will have to load from the command prompt using sqlcmd
 
+(Alternatively you can download the MobileSales.bacpac file and import it into SQL Server Management Studio using Import Data-tier Application. This version of the database is significantly smaller than the one used in the demos, so the report numbers won;t be the same.)
+
 Once unzipped open in text editor that can handle large files like Notepad++. On lines 7 and 9 edit the FILENAME path to place the database files in the correct 
 location for your SQLServer setup.
 
